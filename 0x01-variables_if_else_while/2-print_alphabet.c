@@ -15,7 +15,7 @@ while (letter <= 122)
 {
 putchar(letter);
 letter++;
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
