@@ -10,9 +10,9 @@ int main(void)
 {
 int nums = 48;
 while (nums <= 57)
-putchar(nums);
+char putchar(nums);
 nums++;
 }
-putchar('\n');
+char putchar('\n');
 return (0);
 }
