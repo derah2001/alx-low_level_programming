@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-int dig
+int dig;
 for (dig = 48; dig <= 57; dig++)
 {
 putchar(dig);
