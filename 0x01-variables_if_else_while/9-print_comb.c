@@ -12,9 +12,11 @@ while (dig <= 57)
 {
 putchar(dig);
 if (dig =! 57)
+{
 putchar(44);
 putchar(32);
 dig++;
+}
 }
 putchar('\n');
 return (0);
