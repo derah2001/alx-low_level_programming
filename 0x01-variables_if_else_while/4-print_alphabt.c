@@ -12,7 +12,10 @@ int main(void)
 char letter = 97;
 while (letter <= 122)
 {
-if (letter != 101) || (letter != 113)
+if (letter == 101)
+continue;
+if (letter == 113)
+continue;
 putchar(letter);
 letter++;
 }
