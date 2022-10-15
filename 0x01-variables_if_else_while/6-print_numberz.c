@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
  * Rteurn: Always 0 (Success)
  */
