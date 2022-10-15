@@ -7,14 +7,13 @@
  */
 int main(void)
 {
-int dig = 48;
-while (dig <= 57)
+int dig
+for (dig = 48; dig <= 57; dig++)
 {
 putchar(dig);
-{if (dig =! 57)
+if (dig < 57)
 putchar(44);
 putchar(32);
-dig++;}
 }
 putchar('\n');
 return (0);
