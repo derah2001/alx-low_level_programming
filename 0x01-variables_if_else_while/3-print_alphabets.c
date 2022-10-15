@@ -10,12 +10,12 @@
 int main(void)
 {
 char letter = 97;
+char cap = 65;
 while (letter <= 122)
 {
 putchar(letter);
 letter++;
 }
-char cap = 65;
 while (cap <= 90)
 {
 putchar(cap);
