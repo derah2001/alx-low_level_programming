@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-double dig;
-for (dig = 01; dig < 100; dig++)
+int dig;
+for (dig = 1; dig < 100; dig++)
 {
-putchar(dig);
+putchar("00" + dig);
 if (dig < 99)
 {
 putchar(44);
