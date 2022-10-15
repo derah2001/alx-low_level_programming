@@ -16,5 +16,6 @@ while (letter <= 122)
 putchar("%c", letter);
 letter++;
 }
+getletter();
 return (0);
 }
