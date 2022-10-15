@@ -13,9 +13,8 @@ int main(void)
 char letter = 97;
 while (letter <= 122)
 {
-putchar("%c", letter);
+putchar("\'0' + %c", letter);
 letter++;
 }
-getletter();
 return (0);
 }
