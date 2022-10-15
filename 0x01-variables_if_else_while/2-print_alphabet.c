@@ -14,6 +14,7 @@ char letter = 97;
 while (letter <= 122)
 {
 putchar(letter);
+putchar(\n);
 letter++;
 }
 return (0);
