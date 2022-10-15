@@ -11,6 +11,7 @@ int dig = 48;
 while (dig <= 57)
 {
 putchar(dig);
+if (dig =! 9)
 putchar(44);
 putchar(32);
 dig++;
