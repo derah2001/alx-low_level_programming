@@ -10,7 +10,7 @@ int main(void)
 int dig;
 for (dig = 1; dig < 100; dig++)
 {
-putchar(00 + dig);
+putchar('0' + dig);
 if (dig < 99)
 {
 putchar(44);
