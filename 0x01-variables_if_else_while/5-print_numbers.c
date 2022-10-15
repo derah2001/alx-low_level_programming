@@ -10,9 +10,9 @@ int main(void)
 int num = 48;
 while (48 <= 57)
 {
-printf("%c", num);
+putchar(num);
 num++;
 }
-printf("\n");
+putchar('\n');
 return (0);
 }
