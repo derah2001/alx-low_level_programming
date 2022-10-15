@@ -10,7 +10,7 @@
 */
 int main(void)
 {
-int letter = 97
+int letter = 97;
 while (letter <= 122)
 {
 putchar("%c", letter);
