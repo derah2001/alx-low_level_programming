@@ -12,8 +12,10 @@ for (dig = 48; dig <= 57; dig++)
 {
 putchar(dig);
 if (dig < 57)
+{
 putchar(44);
 putchar(32);
+}
 }
 putchar('\n');
 return (0);
